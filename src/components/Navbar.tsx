@@ -10,7 +10,7 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const estimateWhatsAppURL = `https://wa.me/919876543210?text=${encodeURIComponent(`Hello TarakConstructions Team,
+const estimateWhatsAppURL = `https://wa.me/9381476076?text=${encodeURIComponent(`Hello Tarak Constructions Team,
 
 I am interested in constructing my dream house in Visakhapatnam and would like to get a FREE construction estimate.
 
@@ -110,12 +110,12 @@ export default function Navbar() {
             {/* CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="tel:+919876543210"
+                href="tel:+919381476076"
                 className="flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-orange-500 transition-colors"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                +91 98765 43210
+                +91 9381476076
               </a>
               <a
                 href={estimateWhatsAppURL}
@@ -160,7 +160,7 @@ export default function Navbar() {
             ))}
             <div className="pt-3 pb-1 flex flex-col gap-2">
               <a
-                href="tel:+919876543210"
+                href="tel:+919381476076"
                 className="btn-outline text-sm text-center"
               >
                 Call Now
@@ -181,7 +181,7 @@ export default function Navbar() {
       {/* Sticky mobile bottom bar */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 flex border-t border-gray-200 bg-white shadow-2xl">
         <a
-          href="tel:+919876543210"
+          href="tel:+919381476076"
           className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-orange-500 text-white font-semibold text-sm call-pulse"
           style={{ fontFamily: 'Poppins, sans-serif' }}
         >
@@ -191,7 +191,7 @@ export default function Navbar() {
           Call Now
         </a>
         <a
-          href="https://wa.me/919876543210?text=Hello%20TarakConstructions%2C%20I'm%20interested%20in%20your%20construction%20services."
+          href="https://wa.me/919381476076?text=Hello%20TarakConstructions%2C%20I'm%20interested%20in%20your%20construction%20services."
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-green-500 text-white font-semibold text-sm"

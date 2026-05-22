@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone & WhatsApp',
-    lines: ['+91 98765 43210', '+91 98765 43211'],
+    lines: ['+91 9381476076', '+91 9381476076'],
   },
   {
     icon: Mail,
@@ -33,7 +33,7 @@ const budgetLabels: Record<string, string> = {
 };
 
 function buildWhatsAppURL(form: { name: string; mobile: string; location: string; plotSize: string; budget: string; message: string }) {
-  const msg = `Hello TarakConstructions Team,
+  const msg = `Hello Tarak Constructions Team,
 
 I am interested in constructing my dream house in Visakhapatnam and would like to get a FREE construction estimate.
 
@@ -55,7 +55,7 @@ Please share complete details on WhatsApp.
 
 Thank you.`;
 
-  return `https://wa.me/919876543210?text=${encodeURIComponent(msg)}`;
+  return `https://wa.me/919381476076?text=Hello%20TarakConstructions,%20I'm%20interested%20in%20your%20construction%20services.}`;
 }
 
 export default function Contact() {
@@ -156,7 +156,7 @@ export default function Contact() {
             {/* WhatsApp CTA */}
             <div className="reveal-left" style={{ transitionDelay: '0.3s' }}>
               <a
-                href="https://wa.me/919876543210?text=Hello%20TarakConstructions%2C%20I%20want%20to%20book%20a%20free%20site%20visit."
+                href="https://wa.me/919381476076?text=Hello%20TarakConstructions%2C%20I%20want%20to%20book%20a%20free%20site%20visit."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:shadow-lg w-full text-base"

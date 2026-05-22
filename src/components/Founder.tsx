@@ -37,10 +37,9 @@ export default function Founder() {
           <p className="section-subtitle">Meet Our Founder</p>
           <h2 className="section-title">
             The Visionary Behind{' '}
-            <span className="text-orange-500">TarakConstructions</span>
+            <span className="text-orange-500">Tarak Constructions</span>
           </h2>
         </div>
-
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Founder image */}
           <div className="reveal-left flex justify-center">
@@ -51,16 +50,19 @@ export default function Founder() {
 
               <div className="relative rounded-3xl overflow-hidden shadow-card-hover border-4 border-white">
                 <img
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600&q=80"
-                  alt="Founder of TarakConstructions"
+                  src="https://plain-apac-prod-public.komododecks.com/202605/21/0M2tbJCay3o3YOXXdVn3/image.webp"
+                  alt="Founder of Tarak Constructions"
                   className="w-80 h-96 object-cover object-top"
                 />
                 {/* Overlay badge */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900/80 to-transparent p-6">
                   <h3 className="text-white font-bold text-xl" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                    Tarak Reddy
+                     Bagari Tarak
                   </h3>
-                  <p className="text-orange-400 text-sm font-medium">Founder & Managing Director</p>
+                  <p className="text-white text-sm font-medium">Founder & Managing Director</p>
+                   <div className="text-white text-sm font-medium ">Department of Archaeology</div>
+                  <div className="text-white text-sm font-medium">Andhra University</div>
+                  
                 </div>
               </div>
 
@@ -68,10 +70,9 @@ export default function Founder() {
               <div className="absolute -right-8 top-12 bg-white rounded-2xl p-4 shadow-card-hover border border-orange-100">
                 <div className="text-center">
                   <div className="text-2xl font-extrabold text-orange-500" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                    B.Tech
+                    
                   </div>
-                  <div className="text-xs text-gray-600 font-medium">Civil Engineering</div>
-                  <div className="text-xs text-gray-400">NIT Warangal</div>
+                  
                 </div>
               </div>
             </div>
@@ -84,15 +85,16 @@ export default function Founder() {
                 <Award className="w-4 h-4" />
                 12+ Years of Excellence
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Tarak Reddy
+              <h3 className="text-2xl md:text-3xl font-bold text-orange-400 mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                Bagari Tarak
               </h3>
-              <p className="text-orange-500 font-semibold text-base">Founder & Managing Director, TarakConstructions</p>
+              <p className="text-orange-500 font-semibold text-base">Founder & Managing Director, Tarak Constructions</p>
+              
             </div>
 
             <p className="reveal text-gray-600 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
-              With over 12 years of experience in civil construction, Tarak Reddy founded
-              TarakConstructions with a simple vision — to build premium, affordable, and durable
+              With over 12 years of experience in civil construction, Bagari Tarak founded
+              Tarak Constructions with a simple vision — to build premium, affordable, and durable
               homes for the families of Visakhapatnam. His hands-on approach, deep technical
               knowledge, and commitment to client satisfaction have made TarakConstructions
               one of the most respected builders in Vizag.
@@ -105,7 +107,7 @@ export default function Founder() {
                 We take that responsibility very seriously — no shortcuts, only quality."
               </p>
               <p className="text-orange-500 font-semibold text-sm mt-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                — Tarak Reddy
+                — Bagari Tarak
               </p>
             </div>
 

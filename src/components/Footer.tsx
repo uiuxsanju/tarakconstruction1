@@ -44,7 +44,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-wrap gap-3">
               <a
-                href="tel:+919876543210"
+                href="tel:+919381476076"
                 className="flex items-center gap-2 border border-orange-500 text-orange-400 hover:bg-orange-500 hover:text-white px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
@@ -52,7 +52,7 @@ export default function Footer() {
                 Call Now
               </a>
               <a
-                href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello TarakConstructions Team,\n\nI am interested in constructing my dream house in Visakhapatnam and would like to get a FREE construction estimate.\n\nPlease contact me regarding:\n🏠 House Construction Consultation\n📐 Plot Evaluation & Planning\n💰 Budget Estimation\n🧱 Construction Services Details\n📍 Site Visit Availability\n\nPlease share complete details on WhatsApp.\n\nThank you.`)}`}
+                href={`https://wa.me/+919381476076?text=${encodeURIComponent(`Hello TarakConstructions Team,\n\nI am interested in constructing my dream house in Visakhapatnam and would like to get a FREE construction estimate.\n\nPlease contact me regarding:\n🏠 House Construction Consultation\n📐 Plot Evaluation & Planning\n💰 Budget Estimation\n🧱 Construction Services Details\n📍 Site Visit Availability\n\nPlease share complete details on WhatsApp.\n\nThank you.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300"
@@ -161,11 +161,11 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-orange-500 flex-shrink-0" />
                 <div>
-                  <a href="tel:+919876543210" className="text-sm hover:text-orange-400 transition-colors block" style={{ fontFamily: 'Inter, sans-serif' }}>
-                    +91 98765 43210
+                  <a href="tel:+919381476076" className="text-sm hover:text-orange-400 transition-colors block" style={{ fontFamily: 'Inter, sans-serif' }}>
+                    +91 9381476076
                   </a>
-                  <a href="tel:+919876543211" className="text-sm hover:text-orange-400 transition-colors block" style={{ fontFamily: 'Inter, sans-serif' }}>
-                    +91 98765 43211
+                  <a href="tel:+919381476076" className="text-sm hover:text-orange-400 transition-colors block" style={{ fontFamily: 'Inter, sans-serif' }}>
+                    +91 9381476076
                   </a>
                 </div>
               </div>

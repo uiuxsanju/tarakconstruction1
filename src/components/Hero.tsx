@@ -24,7 +24,7 @@ Please contact me regarding:
 Please share complete details on WhatsApp.
 
 Thank you.`);
-    window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
+    window.open(`https://wa.me/919381476076?text=Hello%20TarakConstructions,%20I'm%20interested%20in%20your%20construction%20services.=${msg}`, '_blank');
   };
 
   const scrollToAbout = () => {
@@ -112,7 +112,7 @@ Thank you.`);
             </button>
 
             <a
-              href="https://wa.me/919876543210?text=Hello%20TarakConstructions%2C%20I'm%20interested%20in%20building%20a%20house%20in%20Vizag."
+              href="https://wa.me/+919381476076?text=Hello%20TarakConstructions%2C%20I'm%20interested%20in%20building%20a%20house%20in%20Vizag."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-7 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 text-base"
@@ -125,7 +125,7 @@ Thank you.`);
             </a>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919381476076"
               className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-semibold px-7 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 text-base"
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >

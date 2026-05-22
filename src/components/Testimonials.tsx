@@ -3,8 +3,8 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Ramakrishna Rao',
-    location: 'MVP Colony, Vizag',
+    name: 'BAGADI TARAKESWARA RAO',
+    location: 'Sector 4, Last Bus Stop Road, Near ACA-VDCA Cricket Stadium, Visakhapatnam',
     rating: 5,
     image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&q=80',
     review: 'TarakConstructions built our dream home in exactly 11 months. The quality of construction, the attention to detail, and the transparency in pricing was exceptional. Tarak sir himself visited our site twice a week. Highly recommended!',
