@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, HardHat } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -63,26 +63,29 @@ export default function Navbar() {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white shadow-md py-3'
-            : 'bg-white/95 backdrop-blur-sm py-4'
+            ? 'bg-white shadow-md py-2'
+            : 'bg-white/95 backdrop-blur-sm py-3'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            {/* Logo */}
+            {/* Logo + Business Name */}
             <button
               onClick={() => handleNavClick('#home')}
-              className="flex items-center gap-2 group"
+              className="flex items-center gap-2 sm:gap-3 group"
             >
-              <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center shadow-orange group-hover:bg-orange-600 transition-colors">
-                <HardHat className="w-5 h-5 text-white" />
-              </div>
-              <div className="leading-tight">
-                <span className="block font-extrabold text-gray-900 text-lg leading-none" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  Tarak
-                  <span className="text-orange-500">Constructions</span>
+              <img
+  src="/images/tarak-logo.png"
+  alt="Tarak Constructions Logo"
+  className="h-9 w-auto sm:h-10 md:h-11 object-contain transition-transform duration-300 group-hover:scale-105"
+/>
+              
+              {/* Business Name */}
+              <div className="leading-tight text-left">
+                <span className="block font-extrabold text-gray-900 text-base sm:text-lg md:text-xl leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                  Tarak<span className="text-orange-500">Constructions</span>
                 </span>
-                <span className="text-xs text-gray-500 font-medium">Visakhapatnam</span>
+                <span className="text-[10px] sm:text-xs text-gray-500 font-medium tracking-wide">Visakhapatnam</span>
               </div>
             </button>
 
@@ -107,7 +110,7 @@ export default function Navbar() {
               ))}
             </nav>
 
-            {/* CTA */}
+            {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <a
                 href="tel:+919381476076"
@@ -137,7 +140,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile menu */}
+        {/* Mobile menu dropdown */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-300 ${
             menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
@@ -182,7 +185,7 @@ export default function Navbar() {
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 flex border-t border-gray-200 bg-white shadow-2xl">
         <a
           href="tel:+919381476076"
-          className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-orange-500 text-white font-semibold text-sm call-pulse"
+          className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-orange-500 text-white font-semibold text-sm"
           style={{ fontFamily: 'Poppins, sans-serif' }}
         >
           <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
