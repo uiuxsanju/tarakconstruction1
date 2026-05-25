@@ -74,16 +74,11 @@ export default function Navbar() {
               onClick={() => handleNavClick('#home')}
               className="flex items-center gap-2 sm:gap-3 group"
             >
-              {/* Logo Image */}
               <img
-                src="assets/owener.webp" // Change this to your actual logo path
-                alt="Tarak Constructions Logo"
-                className="h-9 w-auto sm:h-10 md:h-11 object-contain transition-transform duration-300 group-hover:scale-105"
-                onError={(e) => {
-                  // Fallback if image doesn't load
-                  e.currentTarget.style.display = 'none';
-                }}
-              />
+  src="/images/tarak-logo.png"
+  alt="Tarak Constructions Logo"
+  className="h-9 w-auto sm:h-10 md:h-11 object-contain transition-transform duration-300 group-hover:scale-105"
+/>
               
               {/* Business Name */}
               <div className="leading-tight text-left">
